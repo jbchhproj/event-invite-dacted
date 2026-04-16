@@ -1,32 +1,32 @@
-\# Vertical Slices
+# Vertical Slices
 
-\#\# Slice 1 — RSVP Core (First Build)
+## Slice 1 - RSVP Core (First Build)
 
-Includes:  
-\- Event creation (basic)  
-\- Party \+ guest creation (basic)  
-\- Name-based lookup  
-\- RSVP submission  
-\- Basic UI
+Includes:
+- Event creation (basic)
+- Party + guest creation (basic)
+- Name-based lookup
+- RSVP submission
+- Basic UI
 
-\---
+---
 
-\#\# Slice 2 — Host Dashboard
+## Slice 2 - Host Dashboard
 
-\- View RSVP responses  
-\- Edit responses
+- View RSVP responses
+- Edit responses
 
-\---
+---
 
-\#\# Slice 3 — Invitations
+## Slice 3 - Invitations
 
-\- Improve guest onboarding  
-\- Add sharing UX
+- Improve guest onboarding
+- Add sharing UX
 
-\---
+---
 
-\#\# Strategy
+## Strategy
 
-\- Build end-to-end functionality early  
-\- Avoid isolated backend/frontend work  
-\- Keep system always demoable  
+- Build end-to-end functionality early
+- Avoid isolated backend/frontend work
+- Keep system always demoable

@@ -1,46 +1,50 @@
-\# Architecture Overview
+# Architecture Overview
 
-\#\# Approach  
+## Approach
+
 Modular Monolith
 
-\#\# Structure (Planned)
+## Structure (Planned)
 
-/apps  
-  /web  
+```text
+/apps
+  /web
   /api
 
-/packages  
-  /domain  
+/packages
+  /domain
   /types
+```
 
-\---
+---
 
-\#\# Modules
+## Modules
 
-\- Event Module  
-\- Party Module  
-\- Guest Module  
-\- RSVP Module  
-\- Invitation Module
+- Event Module
+- Party Module
+- Guest Module
+- RSVP Module
+- Invitation Module
 
-\---
+---
 
-\#\# Key Decisions
+## Key Decisions
 
-\- Strong domain modeling  
-\- Clear module boundaries  
-\- Single deployable backend  
-\- Relational database (Postgres)
+- Strong domain modeling
+- Clear module boundaries
+- Single deployable backend
+- Relational database (Postgres)
 
-\---
+---
 
-\#\# Rationale
+## Rationale
 
-\- Faster development for MVP  
-\- Easier to maintain consistency  
-\- Can evolve into services later if needed
+- Faster development for MVP
+- Easier to maintain consistency
+- Can evolve into services later if needed
 
-\---
+---
 
-\#\# Repository Strategy  
+## Repository Strategy
+
 Monorepo structure to manage frontend, backend, and shared packages in a single codebase.

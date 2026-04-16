@@ -1,34 +1,39 @@
-\# MVP Scope
+# MVP Scope
 
-\#\# Included
+## Included
 
-\#\#\# Core Features  
-\- Event creation  
-\- Guest / party management  
-\- Invitation system  
-\- RSVP system  
-\- Guest access via event link \+ name lookup
+### Core Features
 
-\#\#\# RSVP  
-\- Per guest, per event responses  
-\- Party-level submission  
-\- Editable responses
+- Event creation
+- Guest / party management
+- Invitation system
+- RSVP system
+- Guest access via event link + name lookup
 
-\#\#\# Guest Experience  
-\- View event details before RSVP  
-\- View other attending guests (first names only)
+### RSVP
 
-\---
+- Per guest, per event responses
+- Party-level submission
+- Editable responses
 
-\#\# Not Included (Future)  
-\- RSVP deadlines  
-\- Email/SMS invite sending  
-\- Authentication for guests  
-\- Advanced analytics  
-\- Notification system
+### Guest Experience
 
-\---
+- View event details before RSVP
+- View other attending guests (first names only)
 
-\#\# Constraints  
-\- No over-engineering  
-\- Optimize for clarity and implementation speed  
+---
+
+## Not Included (Future)
+
+- RSVP deadlines
+- Email/SMS invite sending
+- Authentication for guests
+- Advanced analytics
+- Notification system
+
+---
+
+## Constraints
+
+- No over-engineering
+- Optimize for clarity and implementation speed
