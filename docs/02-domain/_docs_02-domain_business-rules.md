@@ -30,6 +30,7 @@
 - Each Guest-Event pair has one status:
 - attending
 - declined
+- tentative (if no answer has been selected)
 
 ---
 
